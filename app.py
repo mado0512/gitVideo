@@ -10,7 +10,7 @@ def runPer(waitTime: int, fn, iter=5) -> None:
 if __name__ == '__main__':
 	reportTime = lambda : print(time.time())
 	
-	wts: [int] = [0.25, 1, 2, 3]	
+	wts: [int] = [0.25, 0.5, 1]]	
 	for wt in wts:
 		print(f'Report time per {wt} seconds')
 		runPer(wt, reportTime,iter=10)
