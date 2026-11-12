@@ -1,1 +1,1 @@
-This branch contains `html` and `css` file only.
+This branch contains html, css, and js files.
